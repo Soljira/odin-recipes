@@ -4,11 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Home</title>
+        <script src="https://unpkg.com/feather-icons"></script>
     </head>
 
     <body>
         <h1>Odin Recipes</h1>
-        <br />
+        <hr />
+        <h2>Recipes</h2>
         <nav>
             <ul>
                 <li>
@@ -34,5 +36,27 @@
                 </li>
             </ul>
         </nav>
+
+        <hr />
+        <footer>
+            <a
+                href="https://github.com/Soljira/odin-recipes"
+                rel="noopener noreferrer"
+            >
+                <i
+                    data-feather="github"
+                    style="vertical-align: text-center"
+                ></i>
+                Soljira
+            </a>
+            <a href="mailto:soljiragit@gmail.com">
+                <i data-feather="mail" style="vertical-align: text-center"></i>
+                soljiragit@gmail.com
+            </a>
+            <!-- Needed for rendering feather icons -->
+            <script>
+                feather.replace();
+            </script>
+        </footer>
     </body>
 </html>
